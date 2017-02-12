@@ -1,47 +1,14 @@
 1	Category	Question	Link	Choice	Purpose / Cause	Action / Solution	Post Comments	VR	CPU	Sidebar Comments	Doc Links
-2	Pre-Dive	Have you followed the standard system set-up and pre-dive inspection procedures?			We need to start from a known baseline.	Before conducting any tests, make sure you have followed the<a href='vital_precheck.html'> standard system set up and pre-dive inspection procedures</a>.		1	1		
-3	Pre-Dive		8	Yes							
-4	Pre-Dive		5	No							
-5	Pre-Dive	Did following the standard pre-dive procedures resolve the problem?			Without following a standard test protocol, VITAL may not be able to diagnose problems reliably.  VITAL therefore considers non-standard procedures to be a probable cause of a problem.	Follow the <a href='../../pro_4/html/qs_predive.html'>standard pre-dive inspection and system set-up procedures</a> to see if the problem is still present.		1	1		
-6	Pre-Dive		vital_resolved	Yes							
-7	Pre-Dive		8	No							
-8		Is the problem related to buoyancy or operation?									
-9			11	Buoyancy							
-10			22	Operation							
-11	Buoyancy	What seems to be the problem?									
-12	Buoyancy		15	The ROV is sinking.							
-13	Buoyancy		16	The ROV is too buoyant.							
-14	Buoyancy		17	The ROV is pitched nose up or nose down.							
-15	Buoyancy				You are using the wrong float, or there is too much ballast weight (ballast and or counterbalance weight).	Make sure you are using the correct float and have removed any excess weights.		1			
-16	Buoyancy				You are using the wrong float, or there is not enough ballast weight (ballast and or counterbalance weight).	Make sure you are using the correct float and have added sufficient weight.		1			
-17	Buoyancy	Are you using the manip with a sonar?									
-18	Buoyancy		20	Yes							
-19	Buoyancy		21	No							
-20	Buoyancy				You should not use the counterbalance weight.	Make sure the counterbalance weight is not used and adjust any ROV weights as necessary to achieve the desired pitch.		1			
-21	Buoyancy				You need to use the counterbalance weight.	Make sure the counterbalance weight is used and adjust any ROV weights as necessary to achieve the desired pitch		1			
-22		Is the control reversed (pressing the Open button on the hand controller causes the manipulator to Close)?									
-23			25	Yes							
-24			26	No							
-25					The VideoRay Cockpit configuration for the Articulating Manipulator is not correct.	Activate the correct configuration by using the desktop shortcuts.		1			
-26		Is the version of VideoRay Cockpit greater than 1.10.2.3?			The Articulating Manipulator requires VideoRay Cockpit 1.10.2.3 or later.	Check the version of VideoRay Cockpit.		1			
-27			29	Yes							
-28			47	No							
-29		Is the Articulating Manipulator Window displayed in the communications diagnostic window and is it blue?			The Articulating Manipulator Communications may be an issue. 	Check the status of the Articulating Manipulator in the communications diagnostic window. 					
-30			33	Yes, it is displayed and it is blue.							
-31			45	Yes, it is displayed but it is not blue.							
-32			46	No, it is not displayed.							
-33		Does the Articulating Manipulator instrument show a response to hand controller input?									
-34			36	Yes							
-35			40	No							
-36		Are the jaws or rotator physically restricted?									
-37			39	Yes							
-38			vital_unresolved	No							
-39					The jaws or rotator appear to be obstructed.	Clear the jaws or rotator as necessary.		1			
-40		Do the hand controller buttons for the Articulating Manipulator actions work in Windows game controller diagnostics?									
-41			43	Yes							
-42			44	No							
-43					The VideoRay Cockpit configuration for the Articulating Manipulator is not correct.	Activate the correct configuration by using the desktop shortcuts.		1	1		
-44					The hand controller may be malfunctioning.	Contact VideoRay Support for assistance.		1			
-45					The communications may need to be reset.	Reset the communications.		1			
-46					It appears that the Articulating Manipulator software is not installed or not configured properly.	Check the software installation and activate the correct configuration by using the desktop shortcuts.		1			
-47					The Articulating Manipulator requires VideoRay Cockpit 1.10.2.3 or later,	Upgrade VideoRay Cockpit to 1.10.2.3 or greater.		1			
+2		Do you have version 1.11.3 or greater of VideoRay Cockpit installed?			We need to configure the software required to operate the Rotating Manipulator.	Verify the version of VideoRay Cockpit that you are currently using.		1	1		
+3			12	Yes							
+4			9	No							
+5			6	I don't know what version is installed							
+6		Do you need more help?			The Rotating Manipulator requires version 1.11.3 or greater of VideoRay Cockpit.	The version of VideoRay Cockpit can be found by looking in the lower left corner of the Control Bar.  See the <a href="../../pro_4/html/cockpit_control.html">Control Bar</a> documentation for more information.					Rotating Manipulator Software|../../rotating_manipulator.html/software.html
+7			vital_unable	Yes							
+8			2	No							
+9		Were you able to install the latest version of VideoRay Cockpit.			You have indicated that you do not have version 1.11.3 or greater of VideoRay Cockpit installed.	Install the VideoRay Cockpit Update.  The VideoRay Cockpit update is included on the flash drive and can be found at /setup.exe.  Double click on /setup.exe.  See the <a href="../../pro_4/html/cockpit_updates.html">VideoRay Cockpit Update Instructions</a> for more information, starting at Step 4 because you do not need to download and upzip the update.					
+10			12	Yes							
+11			vital_unable	No							
+12		Were you able to install the Rotating Manipulator Configuration Files?			You now need to install the Rotating Manipulator configuration utility.	Install the Rotating Manipulator configuration utility.  The Rotating Manipulator configuraiton utility is included on the flash drive and can be found at /rotating_manipulator setup.exe.  Double click on /rotating_manipulator_setup.exe	<p>The configuration utility creates three desktop icons that can be used to select which manipulator is in operation and for the rotating manipulator, whether you are using a gripper head or the cutting head.  See <a href="../../rotating_manipulator.html/software.html">the Software Management</a> section of the operator's manual for more information.				
+			../../rotating_manipulator/	Yes			You will be taken to the documentation				
+			vital_unable	No							

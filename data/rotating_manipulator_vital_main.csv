@@ -1,0 +1,47 @@
+1	Category	Question	Link	Choice	Purpose / Cause	Action / Solution	Post Comments	VR	CPU	Sidebar Comments	Doc Links
+2	Pre-Dive	Have you followed the standard system set-up and pre-dive inspection procedures?			We need to start from a known baseline.	Before conducting any tests, make sure you have followed the<a href='vital_precheck.html'> standard system set up and pre-dive inspection procedures</a>.		1	1		
+3	Pre-Dive		8	Yes							
+4	Pre-Dive		5	No							
+5	Pre-Dive	Did following the standard pre-dive procedures resolve the problem?			Without following a standard test protocol, VITAL may not be able to diagnose problems reliably.  VITAL therefore considers non-standard procedures to be a probable cause of a problem.	Follow the <a href='../../pro_4/html/qs_predive.html'>standard pre-dive inspection and system set-up procedures</a> to see if the problem is still present.		1	1		
+6	Pre-Dive		vital_resolved	Yes							
+7	Pre-Dive		8	No							
+8		Is the problem related to buoyancy or operation?									
+9			11	Buoyancy							
+10			22	Operation							
+11	Buoyancy	What seems to be the problem?									
+12	Buoyancy		15	The ROV is sinking.							
+13	Buoyancy		16	The ROV is too buoyant.							
+14	Buoyancy		17	The ROV is pitched nose up or nose down.							
+15	Buoyancy				You are using the wrong float, or there is too much ballast weight (ballast and or counterbalance weight).	Make sure you are using the correct float and have removed any excess weights.		1			Installation|../../rotating_manipulator/html/mounting.html
+16	Buoyancy				You are using the wrong float, or there is not enough ballast weight (ballast and or counterbalance weight).	Make sure you are using the correct float and have added sufficient weight.		1			Installation|../../rotating_manipulator/html/mounting.html
+17	Buoyancy	Are you using the manip with a sonar?									
+18	Buoyancy		20	Yes							
+19	Buoyancy		21	No							
+20	Buoyancy				You should not use the counterbalance weight.	Make sure the counterbalance weight is not used and adjust any ROV weights as necessary to achieve the desired pitch.		1			Installation|../../rotating_manipulator/html/mounting.html
+21	Buoyancy				You need to use the counterbalance weight.	Make sure the counterbalance weight is used and adjust any ROV weights as necessary to achieve the desired pitch		1			Installation|../../rotating_manipulator/html/mounting.html
+22	Control	Is the control reversed (pressing the Open button on the hand controller causes the manipulator to Close)?									
+23	Control		25	Yes							
+24	Control		26	No							
+25	Control				The VideoRay Cockpit configuration for the Articulating Manipulator is not correct.	Activate the correct configuration by using the desktop shortcuts.		1			Software Management|../../rotating_manipulator/html/software_management.html
+26	Control	Is the version of VideoRay Cockpit greater than 1.11.0.1?			The Articulating Manipulator requires VideoRay Cockpit 1.11.0.1 or later.	Check the version of VideoRay Cockpit.		1			Requirements|../../rotating_manipulator/html/requirements.html
+27	Control		29	Yes							
+28	Control		47	No							
+29	Control	Is the Articulating Manipulator Window displayed in the communications diagnostic window and is it blue?			The Articulating Manipulator Communications may be an issue. 	Check the status of the Articulating Manipulator in the communications diagnostic window. 					Pro 4 Communications|../../pro_4/html/service_comms_status.html
+30	Control		33	Yes, it is displayed and it is blue.							
+31	Control		45	Yes, it is displayed but it is not blue.							
+32	Control		46	No, it is not displayed.							
+33	Control	Does the Articulating Manipulator instrument show a response to hand controller input?									
+34	Control		36	Yes							
+35	Control		40	No							
+36	Control	Are the jaws or rotator physically restricted?									
+37	Control		39	Yes							
+38	Control		vital_unresolved	No							
+39	Control				The jaws or rotator appear to be obstructed.	Clear the jaws or rotator as necessary.		1			
+40	Control	Do the hand controller buttons for the Articulating Manipulator actions work in Windows game controller diagnostics?									
+41	Control		43	Yes							
+42	Control		44	No							
+43	Control				The VideoRay Cockpit configuration for the Articulating Manipulator is not correct.	Activate the correct configuration by using the desktop shortcuts.		1	1		Software Management|../../rotating_manipulator/html/software_management.html
+44	Control				The hand controller may be malfunctioning.	Contact VideoRay Support for assistance.		1			
+45	Control				The communications may need to be reset.	Reset the communications.		1			Pro 4 Communications|../../pro_4/html/service_comms_status.html
+46	Control				It appears that the Articulating Manipulator software is not installed or not configured properly.	Check the software installation and activate the correct configuration by using the desktop shortcuts.		1			Software Management|../../rotating_manipulator/html/software_management.html
+47	Control				The Articulating Manipulator requires VideoRay Cockpit 1.11.0.1 or later.	Upgrade VideoRay Cockpit to 1.11.0.1 or greater.		1			Requirements|../../rotating_manipulator/html/requirements.html
